@@ -1,0 +1,75 @@
+/* general body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff; /* white background color for the whole page */
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+/* container for the services section */
+.services-container {
+    padding: 50px 10%; /* padding around the section */
+    background-color: #ffffff; /* light grey background *
+}
+
+/* title styling */
+.services-container h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #000;
+    font-weight: normal;
+}
+
+/* Grid layout for the services */
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns layout */
+    gap: 20px; /* space between grid items */
+}
+
+/* styling for each service card */
+.service-card {
+    background: #f5f5f5; /* white background for each card */
+    padding: 20px;
+    border-radius: 10px; /* for rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* for shadow effect */
+    transition: transform 0.3s;
+}
+
+/* hover effect for the service cards */
+.service-card:hover {
+    transform: translateY(-5px); 
+    background: #e0ffe0; 
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* service card paragraph styling */
+.service-card p {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+/* styling for the links inside the service cards */
+.service-card a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* hover effect for the links */
+.service-card a:hover {
+    text-decoration: underline;
+    color: #009900;
+}
+
+}
