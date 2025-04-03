@@ -1,0 +1,17 @@
+body{
+    justify-content: center;
+    align-items: center;
+}
+.Cont-btn{
+    background: #30FC00;
+    border: none;
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+    font-size: 1rem;
+    font-weight: 700;
+} 
+.contact h3 span{
+    color: #30FC00;
+
+}
